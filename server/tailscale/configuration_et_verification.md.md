@@ -6,7 +6,7 @@ Dans le cadre du projet BTS CIEL, l'accès au Raspberry Pi est sécurisé via un
 Tailscale permet un accès distant sécurisé sans exposer le Raspberry Pi directement sur Internet.
 
 IP VPN attribuée au Raspberry Pi :
-100.116.213.79
+IP_VPN_RASPBERRY
 
 ---
 
@@ -35,7 +35,7 @@ Vérification de l’adresse IP VPN :
 tailscale ip -4
 
 Résultat attendu :
-100.116.213.79
+IP_VPN_RASPBERRY
 
 ---
 
@@ -43,7 +43,7 @@ Résultat attendu :
 
 Connexion distante depuis un poste client :
 
-ssh pi@100.116.213.79
+ssh pi@IP_VPN_RASPBERRY
 
 Cela permet un accès sécurisé au Raspberry Pi via le réseau privé Tailscale.
 
