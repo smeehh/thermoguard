@@ -40,22 +40,7 @@ Cela signifie que Mosquitto démarre automatiquement au démarrage du Raspberry 
 
 ---
 
-## 4. Vérification du port MQTT
-
-Le broker écoute par défaut sur le port 1883 (MQTT standard).
-
-Commande de vérification :
-
-sudo netstat -tulnp | grep 1883
-
-Résultat attendu :
-0.0.0.0:1883
-
-Cela confirme que Mosquitto écoute sur toutes les interfaces réseau.
-
----
-
-## 5. Test local publish / subscribe
+## 4. Test local publish / subscribe
 
 Test de fonctionnement du broker en local.
 
@@ -69,7 +54,7 @@ Si le message apparaît dans la première fenêtre, le broker fonctionne correct
 
 ---
 
-## 6. Conclusion
+## 5. Conclusion
 
 Le broker MQTT Mosquitto est :
 
